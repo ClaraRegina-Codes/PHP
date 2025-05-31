@@ -1,0 +1,22 @@
+body { 
+	font-family: Arial, sans-serif; margin: 30px; background-color: #f9f9f9; 
+}
+table {
+ 	border-collapse: collapse; width: 100%; background: #fff; 
+} 
+        
+ th, td { 
+ 	border: 1px solid #ccc; padding: 10px; text-align: left; 
+ }
+ th { 
+ 	background-color: #eee; 
+ }
+ a, input[type=submit] {
+  text-decoration: none; padding: 6px 12px; border: none; border-radius: 5px;
+  }
+  .editar { 
+  	background-color: #4CAF50; color: white; 
+  }
+  .excluir { 
+  	background-color: #f44336; color: white; 
+  }
