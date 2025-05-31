@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro - Autor</title>
+	<link rel="stylesheet" href="estilo.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+<body>
+	<h1> Cadastro de autores</h1>
+	<br>
+	<form method="POST" action="cadastroAutor.php">
+
+		<label>Nome do autor</label>
+		<br>
+		<input type="text" name="nomeAutor" required>
+		<br>
+
+		<label>CPF:</label>
+		<br>
+		<input type="text" name="cpfAutor">
+		<br>
+
+		<label>Ano de nascimento:</label>
+		<br>
+		<input type="number" name="anoNascimento" required>
+		<br>
+
+		<label>Cidade:</label>
+		<br>
+		<input type="text" name="cidade" required>
+		<br>
+
+		<label>Estado</label>
+		<br>
+		<input type="text" name="estado" required>
+		<br><br>
+
+		<input class="botao" type="submit" value="cadastrar" submit>
+		
+	</form>
+
+</body>
+</html>
